@@ -1,0 +1,29 @@
+body, html {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(Barber.avif) center center;
+    background-size: cover;
+}
+.contenedor {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(15, 81, 56, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.boton-redirection { 
+    background-color: #83fd4b;
+    COLOR: rgb(176, 0, 0);
+    padding: 10px 20px;
+    display: inline-block;
+    margin-top: 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.boton-redirection:hover {
+    background-color: #0497a4;
+}
